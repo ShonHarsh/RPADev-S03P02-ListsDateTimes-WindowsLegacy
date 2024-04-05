@@ -1,12 +1,13 @@
 {
-  "name": "RPADev-S03P02-ListsDateTimes",
+  "name": "RPADev-S03P02-ListsDateTimes-WindowsLegacy",
+  "projectId": "3e81ff8e-560a-4d60-8945-06169841768e",
   "description": "Verify if the dates in the list have passed in the current year\r\n\r\nGiven an input list of strings in format dd.MM.yyyy, please check if any of the dates has the same month as current month and print that date to output. \r\n\r\n For the dates having a different month, print to output the number of days that passed/due from the current date to date from list (in the current year).\r\n\r\nNote: Initialize a list with the following value: new List(of String) from {\"01.02.1980\", \"04.05.1985\",\"06.08.1988\",\"2",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.10.4]",
-    "UiPath.Mail.Activities": "[1.10.5]",
-    "UiPath.System.Activities": "[21.4.1]",
-    "UiPath.UIAutomation.Activities": "[21.4.4]"
+    "UiPath.Excel.Activities": "[2.23.2-preview]",
+    "UiPath.Mail.Activities": "[1.22.2]",
+    "UiPath.System.Activities": "[24.3.0]",
+    "UiPath.UIAutomation.Activities": "[24.2.2-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -15,16 +16,21 @@
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
+    "netFrameworkLazyLoading": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -37,7 +43,8 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false
+    "modernBehavior": false,
+    "saveToCloud": false
   },
   "expressionLanguage": "CSharp",
   "entryPoints": [
