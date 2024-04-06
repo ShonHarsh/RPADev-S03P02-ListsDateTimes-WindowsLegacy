@@ -1,14 +1,14 @@
-![](https://shonharsh.github.io/curriculum-vitae/images/banner-uipath.png)
+![UiPath](https://shonharsh.github.io/curriculum-vitae/images/banner-uipath.png)
 
 # S03P02 Lists & DateTimes
 
 This project is my solution in **Windows Legacy (Deprecated), C#** to the **Lists & DateTimes** practice found in section 03 practice 02 of the UiPath - RPA Developer Foundation course.
 
-### GETTING STARTED
+### Getting Started
 
 After making a pull request or downloading the project, open the Main.xaml in UiPath Studio.  The robot can be run with the play button in the ribbon and the result can be seen in output panel.
 
-#### PRACTICE REQUIREMENTS
+#### Practice Requirements
 
 ###### **Verify if the dates in the list have passed in the current year**
 
@@ -18,7 +18,7 @@ Given an input list of strings in format dd.MM.yyyy, please check if any of the 
 
 **Note:** Initialize a list with the following value: new List(of String) from {"01.02.1980", "04.05.1985","06.08.1988","24.09.1999","18.11.1986","11.10.1983"}
 
-### DETAILS
+### Details
 
 **Course:** UiPath - RPA Developer Foundation
 
@@ -30,7 +30,7 @@ Given an input list of strings in format dd.MM.yyyy, please check if any of the 
 
 **GitHub:** https://github.com/ShonHarsh/RPADev-S03P02-ListsDateTimes-WindowsLegacy
 
-### SAMPLE OUTPUT
+### Sample Output
 
 ```
 07/16/2021 16:23:08 => [Debug] Execution started for project: RPADev-S03P02-ListsDateTimes
@@ -45,26 +45,26 @@ Given an input list of strings in format dd.MM.yyyy, please check if any of the 
 07/16/2021 16:23:11 => [Info] RPADev-S03P02-ListsDateTimes execution ended in: 00:00:01
 ```
 
-### ARCHITECTURE REQUIREMENTS
+### Architecture Requirements
 
 A standard UiPath, Studio to Orchestrator cloud setup is the base of operation.  It is easy to setup and free.
 1. An Orchestrator connection - Visit https://cloud.uipath.com/ and authenticate or sign up.
 2. [UiPath Studio](https://www.uipath.com/product/studio) is used to run the robot.  Note that Studio Web can be used directly in Orchestrator but I recommend installing the Studio IDE application.
 
-### GIT NOTES
+### Git Notes
 
 Clone the project to develop or change it.
 
 `git clone https://github.com/ShonHarsh/RPADev-S03P02-ListsDateTimes-WindowsLegacy`
 
-### LINKS
+### Links
 - [UiPath Automation Platform](https://www.uipath.com/)
 - [UiPath Studio](https://www.uipath.com/product/studio)
 - [Shon Harsh Website 127.0.0.1](https://shonharsh.github.io/curriculum-vitae/index.html)
 - [This.GitHub](https://github.com/shonharsh)
 - [LinkedIn](https://www.linkedin.com/in/shonharsh/)
 
-### RPA DEVELOPER FOUNDATION SECTIONS
+### RPA Developer Foundation Sections
 
 1. Get Started With RPA Development
 
