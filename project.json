@@ -4,9 +4,7 @@
   "description": "Verify if the dates in the list have passed in the current year\r\n\r\nGiven an input list of strings in format dd.MM.yyyy, please check if any of the dates has the same month as current month and print that date to output. \r\n\r\n For the dates having a different month, print to output the number of days that passed/due from the current date to date from list (in the current year).\r\n\r\nNote: Initialize a list with the following value: new List(of String) from {\"01.02.1980\", \"04.05.1985\",\"06.08.1988\",\"2",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.23.2-preview]",
-    "UiPath.Mail.Activities": "[1.22.2]",
-    "UiPath.System.Activities": "[24.3.0]",
+    "UiPath.System.Activities": "[24.3.1]",
     "UiPath.UIAutomation.Activities": "[24.2.2-preview]"
   },
   "webServices": [],
