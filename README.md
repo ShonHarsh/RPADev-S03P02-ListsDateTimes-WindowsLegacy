@@ -32,7 +32,7 @@ Given an input list of strings in format dd.MM.yyyy, please check if any of the 
 
 ### Sample Output
 
-```
+```sh
 07/16/2021 16:23:08 => [Debug] Execution started for project: RPADev-S03P02-ListsDateTimes
 07/16/2021 16:23:10 => [Info] RPADev-S03P02-ListsDateTimes execution started
 07/16/2021 16:23:11 => [Debug] The input month 02 [1980-02-01] is different than the current month 07 [2021-07-16] by 5 month(s).
@@ -55,11 +55,13 @@ A standard UiPath, Studio to Orchestrator cloud setup is the base of operation. 
 
 Clone the project to develop or change it.
 
-`git clone https://github.com/ShonHarsh/RPADev-S03P02-ListsDateTimes-WindowsLegacy`
+```sh
+git clone https://github.com/ShonHarsh/RPADev-S03P02-ListsDateTimes-WindowsLegacy
+```
 
 ### Links
 - [UiPath Automation Platform](https://www.uipath.com/)
-- [UiPath Studio](https://www.uipath.com/product/studio)
+- [UiPath Studio](https://www.uipath.com/product/studio)- [Atom Editor (Used for all my Readme files)](https://atom-editor.cc/)
 - [Shon Harsh Website 127.0.0.1](https://shonharsh.github.io/curriculum-vitae/index.html)
 - [This.GitHub](https://github.com/shonharsh)
 - [LinkedIn](https://www.linkedin.com/in/shonharsh/)
